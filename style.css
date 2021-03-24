@@ -1,0 +1,125 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px white;
+  margin: 2em;
+  background-color: darkgray;
+  color: indigo;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  color: indigo;
+  text-shadow: 2px 2px 2px white;
+}
+
+button{
+  padding: 10px;
+  border-radius: 15px;
+}
+
+img{
+  opacity: 5;
+}
+
+#gameBtn > button{
+  border: 2px solid gray;
+  font-size: 20px;
+  font-weight:bold;
+  color:indigo;
+  background:white; 
+  width: 100px;
+  margin: 10px;
+}
+
+#startBtn:hover {
+  background: darkgray;
+}
+
+#stopBtn:hover {
+  background: darkgray;
+}
+
+#buttonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+  border: 2px solid white;
+}
+
+.hidden {
+  display:none;
+}
+
+#button1 {
+    background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(13).png?v=1616613055062");
+    background-size: 200px 200px;
+}
+
+
+#button1.lit {
+   /* background: #C8A97F;*/
+    background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(13).png?v=1616613055062");
+    background-size: 200px 200px;
+    border: 5px solid red;
+}
+
+#button1:active{
+  background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(13).png?v=1616613055062");
+    background-size: 200px 200px;
+    border: 5px solid green;
+}
+
+#button2 {
+    background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(12).png?v=1616613055882");
+    background-size: 200px 200px;
+}
+#button2.lit {
+    /*background: lightcoral;*/
+    background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(12).png?v=1616613055882");
+    background-size: 200px 200px;
+    border: 5px solid red;
+}
+
+#button2:active{
+  background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(12).png?v=1616613055882");
+    background-size: 200px 200px;
+    border: 5px solid green;
+}
+
+#button3 {
+    background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(11).png?v=1616613058524");
+    background-size: 200px 200px;
+}
+#button3.lit {
+    /*background: steelblue;*/
+    background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(11).png?v=1616613058524");
+    background-size: 200px 200px;
+    border: 5px solid red;
+}
+
+#button3:active{
+  background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(11).png?v=1616613058524");
+    background-size: 200px 200px;
+    border: 5px solid green;
+}
+
+
+#button4 {
+    background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(10).png?v=1616613060426");
+    background-size: 200px 200px;
+}
+#button4.lit {
+    /*background: #8ADB85;*/
+    background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(10).png?v=1616613060426");
+    background-size: 200px 200px;
+    border: 5px solid red;
+}
+
+#button4:active{
+  background-image: url("https://cdn.glitch.com/e8704cab-e565-4533-9643-25850dbaeb19%2F%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(10).png?v=1616613060426");
+    background-size: 200px 200px;
+    border: 5px solid green;
+}
